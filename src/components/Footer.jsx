@@ -6,7 +6,7 @@ import iconPinterest from "../images/icon-pinterest.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-[hsl(168,40%,70%)] py-20 px-4 flex justify-center items-center">
+    <footer className="bg-[hsl(168,40%,70%)] py-28 px-4 flex justify-center items-center">
         <div className="flex flex-col justify-center items-center gap-8">
             <img src={footerLogo} alt="This is the logo for the footer" className="" />
             <ul className="flex gap-8 items-center">
