@@ -9,6 +9,7 @@ function App() {
   
   return (
     <>
+    <main>
     <div className="bg-hero-background-mobile lg:bg-hero-background-desktop bg-cover bg-no-repeat bg-[50%_100%]">
       <Navbar />
       <Hero />
@@ -17,7 +18,7 @@ function App() {
       <Features />
       <Testimonial />
       <Gallery />
-  
+      </main>
     <Footer />
     </>
   )
